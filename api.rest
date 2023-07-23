@@ -30,7 +30,8 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8000/products?name=product&brand=product&region=product
+# GET http://localhost:8000/products?name=product&brand=product&region=product
+GET http://localhost:8000/products
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIxNTQ5OTU3LCJpYXQiOjE2OTAwMTM5NTcsImp0aSI6ImRlNTI1MjVhNjI0NTQ2OGZhODY3MTk0YmI1MzhmODBhIiwidXNlcl9pZCI6Mn0.AfjLJ2JtS26RDkBqm9YmscmQ3r-Riw_pYmgf5EsrrRc
 Content-Type: application/json
 
@@ -43,15 +44,15 @@ Content-Type: application/json
 	"name": "this order is for test purpose",
 	"shopping_cart": [
 		{
-			"product_id": 1,
+			"product_id": 9,
 			"quantity": 2
 		},
 		{
-			"product_id": 2,
+			"product_id": 10,
 			"quantity": 3
 		},
 		{
-			"product_id": 4,
+			"product_id": 12,
 			"quantity": 5
 		}
 	]
