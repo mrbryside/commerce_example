@@ -2,4 +2,4 @@
 .mypy_cache/
 .vscode/
 data/
-.__pycache__
+/__pycache__
